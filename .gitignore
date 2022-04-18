@@ -1,0 +1,12 @@
+__pycache__/
+build/
+logs/
+temp/
+*.log
+.ipynb_checkpoints/
+.coverage
+.venv
+.pytest_cache
+.sass-cache
+_site
+Gemfile.lock

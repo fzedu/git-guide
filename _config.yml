@@ -1,0 +1,27 @@
+# description
+title: The Git Guide
+lang: "ru"
+description: >- 
+  Version control system.
+baseurl: "/git-guide" 
+url: "" 
+github_username: fzedu
+
+# build settings
+markdown: kramdown
+remote_theme: L-Nafaryus/jekyll-theme-rocket@v0.0.3
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+exclude:
+  - environments/
+  - scripts/
+  - "*.ipynb"
+
+
+defaults:
+- scope:
+    path: "README.md"
+  values:
+    layout: default
+    permalink: "/"
